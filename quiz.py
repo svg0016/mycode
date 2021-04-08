@@ -29,7 +29,7 @@ def second_questions():
     answer4 = int(input("How many layers are there of the OSI Model: "))
     answer5 = input("What is better Xbox or PlayStation: ")
     counter = 0
-    playstation = True
+    playstation = False
 
     # if else logic for answers
     if answer3.lower() == "guido van rossum":
