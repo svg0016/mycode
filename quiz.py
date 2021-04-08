@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def introduction():
     print("Do you want to play a game.....?")
     print("WEll if not that's too bad.")
@@ -15,7 +16,8 @@ def first_questions():
     if answer2 == 50:
         print("Good Job " + name + ", You got the first part right. Now it is about to get tricky")
     else:
-        print("We are all doomed. This laptop wil self destruct in  3")
+        print("We are all doomed. This laptop wil self destruct in")
+        print("3")
         print("2")
         print("1")
         exit()
@@ -45,7 +47,7 @@ def second_questions():
         counter += 0
     # logic for results to answers
     if counter == 3:
-        print("Congratulations!! You did not fail.Humanity is Saved. Most importantly, You Chose playstation the "
+        print("Congratulations!! You did not fail. Humanity is Saved. Most importantly, You chose Playstation, the "
               "superior gaming system ")
     elif counter == 2 and playstation:
         print("You were close but still failed. That's unfortunate. Luckily you chose PlayStation so there is still "
