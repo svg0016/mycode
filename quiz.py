@@ -62,7 +62,7 @@ def second_questions():
               "The Apes so you can know what to do.")
     else:
         print("You got every question wrong! Humanity is doomed and the apes are coming. You should really watch "
-              "Planet of The Apes so you can know what to do. Also you suck because you like Xbox.")
+              "Planet of he Apes so you can know what to do. Also you suck because you like Xbox.")
 
 
 # calling functions
@@ -72,4 +72,5 @@ def main():
     second_questions()
 
 
- main()
+if __name__ == '__main__':
+    main()
