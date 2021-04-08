@@ -66,6 +66,10 @@ def second_questions():
 
 
 # calling functions
-introduction()
-first_questions()
-second_questions()
+def main():
+    introduction()
+    first_questions()
+    second_questions()
+
+
+ main()
